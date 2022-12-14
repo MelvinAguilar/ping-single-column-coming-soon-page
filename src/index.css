@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Libre Franklin", sans-serif;
+  }
+}
+
+@layer components {
+  :is(a, button, input, textarea, select, details, summary):focus-visible {
+    outline: theme('colors.custom-blue') dotted 0.188rem;
+    outline-offset: 0.188rem;
+  }
+
+  .filter-white {
+    filter: invert(1) hue-rotate(180deg);
+  }
+
+  .transition-filter {
+    transition: filter 220ms linear;
+    -webkit-transition: -webkit-filter 220ms linear;
+  }
+}
+
+@layer utilities {
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #F1F1F1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: hsl(223, 100%, 75%);
+    border-radius: 20px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: theme('colors.custom-blue');
+  }
+}
