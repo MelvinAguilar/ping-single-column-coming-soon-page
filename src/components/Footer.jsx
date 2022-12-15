@@ -8,7 +8,7 @@ const Footer = () => {
       <p className="mt-4 text-sm text-custom-gray">
         &copy; Copyright Ping. All rights reserved.
       </p>
-      {/* <Attribution /> */}
+      <Attribution />
     </footer>
   );
 };

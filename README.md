@@ -42,8 +42,8 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 
 <h2 align="center">Links</h2>
 
-<!-- - Solution URL: [Fylo landing page with two column layout (SASS + Mobile-first + BEM) | Frontend Mentor](https://www.frontendmentor.io/solutions/fylo-landing-page-with-two-column-layout-WRPVqmFCKD)
-- Live Site URL: [https://fylo-landing-page-with-two-column-layout-hdez.vercel.app/](https://fylo-landing-page-with-two-column-layout-hdez.vercel.app/) -->
+- Solution URL: [Ping single column coming soon (React + TailwindCSS + Dark/Light mode) | Frontend Mentor](https://www.frontendmentor.io/solutions/ping-single-column-coming-soon-page-XddXG4uLv2)
+- Live Site URL: [https://ping-single-column-coming-soon-page-hdez.vercel.app/](https://ping-single-column-coming-soon-page-hdez.vercel.app/)
 
 <br>
 
@@ -94,11 +94,11 @@ Users should be able to:
 
 ### Useful resources
 
-- [A11Y 101: Ensure landmarks are unique](https://daily-dev-tips.com/posts/a11y-101-ensure-landmarks-are-unique/)
 - [Tailwind CSS: Responsive Design](https://tailwindcss.com/docs/responsive-design)
 - [React Hook Form: UseForm](https://react-hook-form.com/api/useform)
 - [React Toastify: ToastContainer](https://fkhadra.github.io/react-toastify/introduction)
 - [React documentation](https://reactjs.org/)
+- [A11Y 101: Ensure landmarks are unique](https://daily-dev-tips.com/posts/a11y-101-ensure-landmarks-are-unique/)
 
 ## Author
 

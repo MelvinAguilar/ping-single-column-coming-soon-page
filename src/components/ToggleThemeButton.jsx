@@ -25,17 +25,29 @@ const ToggleThemeButton = () => {
   }, [darkMode]);
 
   return (
-    <button
-      className="absolute top-6 right-6 md:top-10 md:right-10"
-      onClick={() => setDarkMode(!darkMode)}
-      aria-label="Toggle dark mode"
-    >
+    <label className="absolute top-6 right-6 h-6 w-6 md:top-10 md:right-10">
+      <input
+        type="checkbox"
+        className="absolute top-0 left-0 h-full w-full cursor-pointer opacity-0"
+        checked={darkMode}
+        aria-label="Dark mode"
+        onChange={() => setDarkMode(!darkMode)}
+      />
+
       {darkMode ? (
-        <FaSun className="h-6 w-6 text-custom-gray" />
+        <FaSun
+          className="h-6 w-6 text-custom-gray"
+          aria-hidden="true"
+          focusable="false"
+        />
       ) : (
-        <FaMoon className="h-6 w-6 text-custom-gray" />
+        <FaMoon
+          className="h-6 w-6 text-custom-gray"
+          aria-hidden="true"
+          focusable="false"
+        />
       )}
-    </button>
+    </label>
   );
 };
 
